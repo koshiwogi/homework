@@ -1,0 +1,215 @@
+body {
+	font-family: Arial;
+	text-align: center;/*文字を中央ぞろえ*/
+}
+
+header {
+	margin-bottom: 100px;/*ヘッダーの下部に余白を作る*/
+}
+
+h1 {
+	background-color: #000; /*背景を黒に*/
+	color: #fff; /*文字を白に*/
+	margin: 0; /*余白をなくす*/
+	padding: 10px;/*要素余白を　10pxに*/
+	font-size: 18px;
+}
+.date{
+	font-size: 300%;/*文字サイズを３倍に*/
+	font-family: 'Times New Roman',Times, self; /*フォントをTimes New Roman*/	
+}
+
+/*テキスト*/
+* {
+	font-family: serif;
+  }
+
+  body {
+	margin: 0;
+  }
+
+
+  footer {
+	height: auto;
+	width: auto;
+	padding:70px 0 10px;
+	background-color: white;
+  }
+
+  footer hr {
+	border: none;
+	height: 3px;
+	width: 30px;
+	margin-left: 0;
+	text-align: left;
+  }
+
+  .footer-top {
+	display: flex;
+	justify-content: center;
+	margin-bottom: 30px;
+  }
+
+  footer h3 {
+	color: black;
+	font-size: 28px;
+  }
+
+  #about-us {
+	margin-right: 20px;
+  }
+
+  #about-us h3 {
+	margin: 0px;
+  }
+
+  #about-us p {
+	color: #68696d;
+	font-size: 19px;
+  }
+
+  #social h3 {
+	margin:  0px;
+  }
+
+  .social-media {
+	display: flex;
+	justify-content: flex-start;
+  }
+
+  .social-media li {
+	font-size: 40px;
+  }
+
+  .social-media li a{
+	border-bottom: 0px;
+  }
+
+  .fa {
+	color: #731c80;
+  }
+
+  ::-webkit-input-placeholder {
+	color: #909195;
+	font-size: 16px;
+  }
+
+  #drop-us {
+	margin-left: 20px;
+  }
+
+  #drop-us h3 {
+	margin: 0px
+  }
+
+  #drop-us form div.element_wrap label {
+	color: #ffffff;
+	font-size: 19px;
+  }
+
+  #drop-us form .element_wrap div {
+	height: auto;
+	max-width: 400px;
+  }
+
+  #drop-us form .element_wrap p {
+	color: #909297;
+	font-size: 18px;
+  }
+
+  #drop-us #flag1 input {
+	width: 80px;
+	height: 35px;
+	background-color: #731c80;
+	color: #ede3ef;
+	font-size: 17px;
+	border: none;
+	border-radius: 8px 8px 8px 8px;
+  }
+
+  .attention {
+	text-align: center;
+	display: flex;
+	justify-content: flex-start;
+  }
+
+  #drop-us p {
+	color:#a54848;
+	font-size: 17px;
+  }
+
+  .form-group .fa {
+	color: red;
+  }
+
+  .form {
+	width: 400px;
+	height: 30px;
+	margin-bottom: 20px;
+	background-color: #9fa6d4;
+	color: #ffffff;
+	padding-left: 10px;
+	border: none;
+	border-radius: 8px 8px 8px 8px;
+  }
+
+  #drop-us textarea {
+	height: 200px;
+	width: 400px;
+	color: #ffffff;
+	background-color: #ccffff;
+	padding-left: 10px;
+	border: none;
+	border-radius: 8px 8px 8px 8px;
+	resize: none;
+  }
+
+  span.error_m {
+	font-size: 15px;
+	font-weight: normal;
+	color: #FF4040;
+	display: block;
+	margin: 0;
+  }
+
+  .error {
+	border: 1px solid red;
+  }
+
+  .error_list {
+	padding: 10px 30px;
+	color: #ff2e5a;
+	font-size: 86%;
+	text-align: left;
+	border: 1px solid #ff2e5a;
+	border-radius: 5px;
+	list-style: none;
+  }
+
+  textarea::-webkit-input-placeholder {
+  }
+
+  #drop-us .form-group p{
+	color: #68696d;
+  }
+
+  #submit-center {
+	width: 400px;
+	margin: 0 auto;
+	display: flex;
+	justify-content: space-between;
+  }
+
+  #submit-center p {
+	margin: 0;
+  }
+
+  #submit {
+	width: 80px;
+	height: 35px;
+	background-color: #731c80;
+	color: #ede3ef;
+	font-size: 17px;
+	border: none;
+	border-radius: 8px 8px 8px 8px;
+  }
