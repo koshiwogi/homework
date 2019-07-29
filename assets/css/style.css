@@ -121,7 +121,7 @@ h1 {
 	width: 80px;
 	height: 35px;
 	background-color: #731c80;
-	color: #ede3ef;
+	color: black;
 	font-size: 17px;
 	border: none;
 	border-radius: 8px 8px 8px 8px;
@@ -147,7 +147,7 @@ h1 {
 	height: 30px;
 	margin-bottom: 20px;
 	background-color: #9fa6d4;
-	color: #ffffff;
+	color: black;
 	padding-left: 10px;
 	border: none;
 	border-radius: 8px 8px 8px 8px;
@@ -156,8 +156,7 @@ h1 {
   #drop-us textarea {
 	height: 200px;
 	width: 400px;
-	color: #ffffff;
-	background-color: #ccffff;
+	background-color: rgb(202, 157, 157);
 	padding-left: 10px;
 	border: none;
 	border-radius: 8px 8px 8px 8px;
@@ -186,8 +185,7 @@ h1 {
 	list-style: none;
   }
 
-  textarea::-webkit-input-placeholder {
-  }
+ 
 
   #drop-us .form-group p{
 	color: #68696d;
@@ -208,8 +206,10 @@ h1 {
 	width: 80px;
 	height: 35px;
 	background-color: #731c80;
-	color: #ede3ef;
+	color:black;
 	font-size: 17px;
 	border: none;
 	border-radius: 8px 8px 8px 8px;
   }
+
+  /*入力確認*/

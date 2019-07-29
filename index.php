@@ -1,20 +1,4 @@
 
-<?php
-$page_flag = 0;
- 
-if( !empty($_POST['btn_confirm'])) {
-  $page_flag = 1;
- 
-} elseif ( !empty($_POST['btn_submit'])) {
-  $page_flag = 2;
- 
-} else {
-  $page_flag = 0;
-}
-?>
-
-
-
 <!DOCTYPE html>
 <html lang="ja">
 	<head>
@@ -44,7 +28,7 @@ if( !empty($_POST['btn_confirm'])) {
       <div id="drop-us">
 		<h3>Inquiry form</h3>
 		
-        <form id="form" method="post" action="#contact"></form>
+        <form id="form" method="post" action="check.php">
 
 		<div class="attention">
             <p>(*)は必須項目</p>
@@ -71,7 +55,7 @@ if( !empty($_POST['btn_confirm'])) {
  
           <div class="form-group">
             <div id="submit-center">
-              <input id="submit" type="submit" name="btn_confirm" value="Check">
+			  <input id="submit" type="submit" name="btn_confirm" value="Check">
             </div>
           </div>
         </form>

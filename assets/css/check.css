@@ -1,0 +1,21 @@
+body {
+	font-family: Arial;
+	text-align: center;/*文字を中央ぞろえ*/
+}
+
+header {
+	margin-bottom: 100px;/*ヘッダーの下部に余白を作る*/
+}
+
+h1 {
+	background-color: #000; /*背景を黒に*/
+	color: #fff; /*文字を白に*/
+	margin: 0; /*余白をなくす*/
+	padding: 10px;/*要素余白を　10pxに*/
+	font-size: 18px;
+}
+.date{
+	font-size: 300%;/*文字サイズを３倍に*/
+	font-family: 'Times New Roman',Times, self; /*フォントをTimes New Roman*/	
+}
+/*全体感*/
